@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.heading {
+  margin-top: 20px;
+  text: center;
+  color: white;
+  text-shadow: 2px 4px black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn-container {
+  margin-top: 50px;
+}
+
+button {
+  margin: 50px;
+  font-size: 16px;
+  height: 60px;
+  width: 300px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.components-container {
+  margin: 50px auto 0 auto;
+  position: relative;
+  width: 800px;
+  height: 400px;
+}
+/* 
+.toggleClassComponentVisibility,
+.toggleFunctionComponentVisibility {
+  width: 300px;
+  position: absolute;
+} */
